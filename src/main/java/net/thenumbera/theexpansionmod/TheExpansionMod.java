@@ -2,6 +2,7 @@ package net.thenumbera.theexpansionmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.thenumbera.theexpansionmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +12,6 @@ public class TheExpansionMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
 	}
 }
